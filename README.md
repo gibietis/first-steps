@@ -1,4 +1,4 @@
-# Helo there!
+# Hello there!
 
 Thanks for stopping by and checking out first-steps. This is where I'll upload my code.
 
