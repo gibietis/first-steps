@@ -23,13 +23,13 @@ print("First let's print the whole file:\n")
 
 #calls the function print_all with the argument current_file, which opens the file set by input_file argv given by the commandline
 print_all(current_file)
-print("Now let's rewind, kind of like a tape.")
+print("Now let's rewind, kind of like a tape.\n")
 
 #rewinds files. After the readline() function is executed, the script will move towards the end of the file. When you rewind the file, the program
 #goes back to the beginning, like an actual tape.
 rewind(current_file)
 
-print("Let's print three lines:")
+print("Let's print three lines:\n")
 
 #Okay, so this sets a variable current line, which amounts to one. The idea here is to add one number at each interation, for each line. So this will return
 #the number of the current line. The script doesn't really show the current line. Instead, it counts how many lines have passed, which amounts to
@@ -39,8 +39,8 @@ current_line = 1
 #will open input_file, which was defined by the command line when the program was executed. Input file will be read by the function .readline().
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
