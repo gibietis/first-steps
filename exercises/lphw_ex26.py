@@ -1,6 +1,8 @@
 #Okay, so we're supposed to correct all problems with this code. The corrupted code is available @ https://learnpythonthehardway.org/python3/exercise26.txt
 #We can find syntax and logic errors in the code. Zed said this would take quite some time to get right, but it seems that I've been able to fix every
-#major problem in about 25 minutes. I didn't run this through VSCode the first time, I've opened the Text Editor. VSCode makes finding
+#major problem in about 25 minutes. 
+# This can only mean two things: I'm getting the hang of it or I'm completely clueless.
+# I didn't run this through VSCode the first time, I've opened the Text Editor. VSCode makes finding
 #errors way too easy, which is not a problem in itself, but it defeats the purpose of the exercise. To be fair, I found a problem with line 61
 #with VSCode (missing 'f' from fstring)
 from sys import argv
