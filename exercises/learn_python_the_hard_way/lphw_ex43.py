@@ -1,3 +1,8 @@
+#The idea behind this project is to make your own game from Zed's instructions on how to start a code from scratch.
+#I won't do this for now. I want to finish all the basic concepts given by the book and start working on Project Farm.
+#Being very honest, I don't find coding text-based games amusing at all.
+
+
 class Scene(object):
     def enter(self):
         pass
@@ -38,7 +43,7 @@ class Map(object):
 
     def opening_scene(self):
         pass
-    
+
 a_map = Map('central_corridor')
 
 a_game = Engine(a_map)
