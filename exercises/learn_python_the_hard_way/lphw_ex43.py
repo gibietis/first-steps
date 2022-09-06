@@ -87,14 +87,14 @@ class LaserWeaponArmory(Scene):
         You get to a code lock. If you get it wront 10 times, it'll lock forever
         """))
 
-        code = f"{randing(1,9)}{randint(1,9)}{randint(1,9)}"
+        code = f"{randint(1,9)}{randint(1,9)}{randint(1,9)}"
         guess = input("[keypad]> ")
         guesses = 0
 
         while guess != code and guesses < 10:
-        print("BZEEEDZD!")
-        guesses += 1
-        guess = input("[keypad]> ")
+            print("BZEEEDZD!")
+            guesses += 1
+            guess = input("[keypad]> ")
 
         if guess == code:
             print(dedent("""
